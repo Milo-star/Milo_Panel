@@ -1,3 +1,4 @@
+@vite(['resources/scss/login.scss', 'resources/js/app.js'])
 <form method="POST" action="{{ route('login') }}">
     @csrf
     <label for="email">Email</label>
