@@ -10,8 +10,6 @@
 <body>
     <div class="navbar">
         <a href="#">Milo'Panel</a>
-        <a href="#" class="settings">Settings</a>
-        <a href="/login" class="connexion">Connexion</a>
     </div>
     <div class="container">
         <div class="top-container">
