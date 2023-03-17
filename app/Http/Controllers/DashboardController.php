@@ -11,5 +11,11 @@ class DashboardController extends Controller
         $orders = Order::all();
         return view('dashboard', compact('orders'));
     }
+    public function edit($id)
+    {
+        $order = Order::findOrFail($id);
+        return view('edit', compact('order'));
+    }
+
     
 }

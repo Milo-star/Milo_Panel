@@ -20,12 +20,16 @@ Route::get('/', function () {
 });
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+
 Route::post('/login',[AuthController::class, 'login']);
+
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 });
+
 Route::get('/logout', function () {
     Auth::logout();
     return redirect('/login');
 })->name('logout');
+
 

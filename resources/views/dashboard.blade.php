@@ -42,6 +42,7 @@
                     <td>{{ $order->modele }}</td>
                     <td>{{ $order->date }}</td>
                     <td>{{ $order->moyen_paiement }}</td>
+                    <td><a href="{{ route('edit', $order->id) }}" class="edit">Modifier</a></td>
                 </tr>
             @endforeach
             </tbody>
