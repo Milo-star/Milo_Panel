@@ -36,6 +36,78 @@ body{
     }
 }
 
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 251, 251, 0.75), rgba(0, 0, 0, 0));
+}
+
+.table{
+    padding: 5rem;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #507295;
+}
+
+tr{
+    background-color: #466482;
+}
+  
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-family: 'sans-serif';
+}
+
+table th {
+    background-color: #34495E;
+    color: #fff;
+    padding: 2rem;
+}
+
+table td {
+    font-weight: 500;
+}
+
+.price{
+    background-color: #F1C40F;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+.status-payé {
+    background-color: #2ECC71;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.status-impayé {
+    background-color: #E74C3C;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.status-attente {
+    background-color: #F1C40F;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
 
 .vector{
     width: 100%;
