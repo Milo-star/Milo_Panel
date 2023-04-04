@@ -32,4 +32,3 @@ Route::get('/logout', function () {
     return redirect('/login');
 })->name('logout');
 
-
